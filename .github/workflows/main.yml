@@ -20,4 +20,4 @@ jobs:
     - name: Setup VSTest.exe
       uses: Malcolmnixon/Setup-VSTest@v2
     - name: VSTest
-      run: vstest.console BankAccountWithTests.Tests\bin\Debug\BankAccountWithTests.Tests.dll
+      run: vstest.console BankAccountWithTests.Tests\bin\Release\BankAccountWithTests.Tests.dll
