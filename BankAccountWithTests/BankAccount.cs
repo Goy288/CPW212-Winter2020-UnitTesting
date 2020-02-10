@@ -50,6 +50,7 @@ namespace BankAccountWithTests
             {
                 throw new ArgumentException("You must deposit a positive amount");
             }
+
             Balance += amt;
             return Balance;
         }
